@@ -32,7 +32,7 @@ Save the following code CircuitPython folder as your CircuitPython drive: (inclu
 
 ## 🔍 How It Works Under the Hood
 
-1. **Execution Burst:** The microcontroller detects the state drop, halts its idle state, and instantly requests 2 bytes from register `0x30` via I2C.
+1. **Execution Burst:** Instantly requests 2 bytes from register `0x30` via I2C.
 2. **HID Translation:** Byte 1 (modifiers) and Byte 2 (HID keycode) are mapped and pushed downstream out the physical USB port to your host PC as standard USB keyboard keystrokes.
 3. **Recovery:** The script flashes the LEDs Magenta during processing and resets back to its silent watch state instantly.
 
