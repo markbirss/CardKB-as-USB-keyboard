@@ -30,14 +30,6 @@ Save the following code CircuitPython folder as your CircuitPython drive: (inclu
 
 ---
 
-## 🔍 How It Works Under the Hood
-
-1. **Execution Burst:** Instantly requests 2 bytes from register `0x30` via I2C.
-2. **HID Translation:** Byte 1 (modifiers) and Byte 2 (HID keycode) are mapped and pushed downstream out the physical USB port to your host PC as standard USB keyboard keystrokes.
-3. **Recovery:** The script flashes the LEDs Magenta during processing and resets back to its silent watch state instantly.
-
----
-
 ## 🤝 Contributing
 
 Contributions to improve performance, add multi-key rollover maps, or add native hardware async callbacks are welcome! Feel free to open an issue or submit a pull request.
