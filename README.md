@@ -3,6 +3,17 @@
 A simple CircuitPython firmware that transforms the M5Stack CardKB into a native USB HID keyboard using a Raspberry Pi Pico. 
 ---
 
+https://github.com/markbirss/CardKB-as-USB-keyboard
+
+M5Stack Pinout connection to Raspberry Pi Pico
+| CardKB  | Pico Pin (Example) | Description |
+| :--- | :--- | :--- |
+| **GND** | GND (Pin 38) | Black |
+| **VCC** | VBUS (5V) | Red |
+| **SDA** | GP4 (Pin 6) | Yellow |
+| **SCL** | GP5 (Pin 7) | White |
+
+
 ## 🔌 Hardware Setup
 
 Connect your CardKB keyboard expansion rail to your Raspberry Pi Pico using the pinout matrix below. Copy the CirtcuitPython folder to your CirtcuitPython Drive. Power cycle the Raspberry Pi pico and connect it to your computer USB port. Typing on the keyboard should now work as a normal USB input device
