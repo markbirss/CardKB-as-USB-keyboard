@@ -5,6 +5,11 @@ A simple CircuitPython firmware that transforms the M5Stack CardKB into a native
 
 <img width="1862" height="1604" alt="image" src="https://github.com/user-attachments/assets/72d081e4-97d9-4416-90f7-327fcae0e7f6" />
 
+## 🔌 Hardware Setup
+
+Connect your CardKB keyboard expansion rail to your Raspberry Pi Pico using the pinout matrix below. Copy the CirtcuitPython folder to your CirtcuitPython Drive. Power cycle the Raspberry Pi pico and connect it to your computer USB port. Typing on the keyboard should now work as a normal USB input device
+
+### Wiring Diagram
 
 M5Stack Pinout connection to Raspberry Pi Pico
 | CardKB  | Pico Pin (Example) | Description |
@@ -13,19 +18,6 @@ M5Stack Pinout connection to Raspberry Pi Pico
 | **VCC** | VBUS (5V) | Red |
 | **SDA** | GP4 (Pin 6) | Yellow |
 | **SCL** | GP5 (Pin 7) | White |
-
-## 🔌 Hardware Setup
-
-Connect your CardKB keyboard expansion rail to your Raspberry Pi Pico using the pinout matrix below. Copy the CirtcuitPython folder to your CirtcuitPython Drive. Power cycle the Raspberry Pi pico and connect it to your computer USB port. Typing on the keyboard should now work as a normal USB input device
-
-### Wiring Diagram
-
-| CardKB  | Pico Pin (Example) | Description |
-| :--- | :--- | :--- |
-| **VCC** | VBUS (5V) | Power input |
-| **GND** | GND (Pin 38) | Ground reference |
-| **SDA** | GP4 (Pin 6) | I2C Data line |
-| **SCL** | GP5 (Pin 7) | I2C Clock line |
 
 ---
 
@@ -37,7 +29,7 @@ Connect your CardKB keyboard expansion rail to your Raspberry Pi Pico using the 
 
 ## 💻 Script Implementation
 
-Save the following code CircuitPython folder as your CircuitPython drive: (includes libraries and code)
+Save the following repo CircuitPython folder as your CircuitPython drive: (includes libraries and code)
 
 ---
 
