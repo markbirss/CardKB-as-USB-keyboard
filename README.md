@@ -5,7 +5,7 @@ A simple CircuitPython firmware that transforms the M5Stack CardKB into a native
 
 ## 🔌 Hardware Setup
 
-Connect your CardKB keyboard expansion rail to your Raspberry Pi Pico using the pinout matrix below. 
+Connect your CardKB keyboard expansion rail to your Raspberry Pi Pico using the pinout matrix below. Copy the CirtcuitPython folder to your CirtcuitPython Drive. Power cycle the Raspberry Pi pico and connect it to your computer USB port. Typing on the keyboard should now work as a normal USB input device
 
 ### Wiring Diagram
 
